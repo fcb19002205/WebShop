@@ -6,6 +6,6 @@ Na strani products omogućen je unos novih, kao i brisanje i ažuriranje postoje
 Na strani buyers, omogućen je unos novih, kao i brisanje i ažuriranje postojećih kupaca.
 Na strani sales, omogućena je prodaj proizvoda određenim kupcima. Svaka prodaja podrazumijeva ažuriranje stanja u tabeli sales, ali i u tabelama buyers i products.
 
-Zadatak se može posmatrati kao aplikacija koju bi eventualno koristili zaposleni u nekoj fizičkoj trgovini.
+Aplikacija se može posmatrati kao program koji bi eventualno koristili zaposleni u nekoj fizičkoj trgovini.
 U zdatatku je korištena JDBC tehnologija, a svi podaci od klijenta (iz browsera) do servera, se unose putem HTML formi u kombinaciji sa Java servletima.
 Sve ove podatke od klijenta (iz browsera) do servera se unose putem HTML formi u kombinaciji sa Java servletima.
