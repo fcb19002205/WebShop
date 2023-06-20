@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    margin: 50px;
+}
+
+ul.menu {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+ul.menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+ul.menu li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+table.data-table {
+    width: 500px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    padding-left: 50px;
+}
+
+table.data-table th,
+table.data-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+div.buyer-details,
+div.product-details {
+    margin-bottom: 20px;
+    margin: 50px;
+}
+
+ul.product-list {
+    list-style: none;
+    padding: 0;
+}
+
+ul.product-list li {
+    margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+th {
+  background-color: lightgray;
+  text-align: center;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+}
+
+input[type="submit"] {
+    margin: 20px;
+}
+
+div.table-container {
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+div.table-container table {
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+
+div.table-container td {
+  padding: 10px;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(to bottom, #87cefa, #0000ff);
+  margin: 0;
+}
+
+p.error-message {
+    color: red;
+    font-weight: bold;
+}

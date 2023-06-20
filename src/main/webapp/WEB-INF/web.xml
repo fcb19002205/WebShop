@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         id="WebApp_ID" version="4.0">
+  <display-name>WebShop</display-name>
+
+  <servlet>
+    <servlet-name>AddBuyerServlet</servlet-name>
+    <servlet-class>com.example.servlets.AddBuyerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteBuyerServlet</servlet-name>
+    <servlet-class>com.example.servlets.DeleteBuyerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateBuyerServlet</servlet-name>
+    <servlet-class>com.example.servlets.UpdateBuyerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddProductServlet</servlet-name>
+    <servlet-class>com.example.servlets.AddProductServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteProductServlet</servlet-name>
+    <servlet-class>com.example.servlets.DeleteProductServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateProductServlet</servlet-name>
+    <servlet-class>com.example.servlets.UpdateProductServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddSaleServlet</servlet-name>
+    <servlet-class>com.example.servlets.AddSaleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AllBuyersServlet</servlet-name>
+    <servlet-class>com.example.servlets.AllBuyersServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AllProductsServlet</servlet-name>
+    <servlet-class>com.example.servlets.AllProductsServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AddBuyerServlet</servlet-name>
+    <url-pattern>/AddBuyerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteBuyerServlet</servlet-name>
+    <url-pattern>/DeleteBuyerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateBuyerServlet</servlet-name>
+    <url-pattern>/UpdateBuyerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddProductServlet</servlet-name>
+    <url-pattern>/AddProductServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteProductServlet</servlet-name>
+    <url-pattern>/DeleteProductServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateProductServlet</servlet-name>
+    <url-pattern>/UpdateProductServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddSaleServlet</servlet-name>
+    <url-pattern>/AddSaleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AllBuyersServlet</servlet-name>
+    <url-pattern>/AllBuyersServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AllProductsServlet</servlet-name>
+    <url-pattern>/AllProductsServlet</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+
+</web-app>
