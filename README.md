@@ -8,4 +8,4 @@ Na strani sales, omogućena je prodaj proizvoda određenim kupcima. Svaka prodaj
 
 Aplikacija se može posmatrati kao program koji bi eventualno koristili zaposleni u nekoj fizičkoj trgovini.
 U zdatatku je korištena JDBC tehnologija, a svi podaci od klijenta (iz browsera) do servera, se unose putem HTML formi u kombinaciji sa Java servletima.
-Sve ove podatke od klijenta (iz browsera) do servera se unose putem HTML formi u kombinaciji sa Java servletima.
+
